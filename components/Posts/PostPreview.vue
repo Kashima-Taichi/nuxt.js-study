@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="postLink" class="post-preview">
+  <nuxt-link :to=" /admin/ + this.id + /posts/ + this.id" class="post-preview">
     <article class="post-preview">
       <div class="post-thumbnail" :style="{backgroundImage: 'url(' + thumbnail + ')'}"></div>
       <div class="post-content">
